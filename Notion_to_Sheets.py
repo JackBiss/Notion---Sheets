@@ -4,7 +4,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import json
 import os
 
-# 🔹 Recupero le variabili d'ambiente (che configureremo su GitHub) 
+# 🔹 Recupero le variabili d'ambiente (che configureremo su GitHub)
 NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 DATABASE_ID = "INSERISCI_IL_TUO_DATABASE_ID"
 GOOGLE_SHEETS_CREDENTIALS = os.getenv("GOOGLE_SHEETS_CREDENTIALS")
